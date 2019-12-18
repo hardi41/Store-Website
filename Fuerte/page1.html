@@ -1,0 +1,110 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <style>
+    body
+    {
+      background-image:url("bgimages.jfif");
+background-repeat:no-repeat;
+background-size:100%;
+    }
+    h1{
+      text-transform: capitalize;
+      text-indent: 50px;
+      font-family: "Times New Roman", Times, serif;
+      font-size:100px;
+      margin-right: 10px;
+    }
+   .navdir
+   {
+    float:right;
+    font-size: 30px;
+    background-color: transparent;
+   }
+
+   .searchdir
+   {
+    margin-top: 8px;
+    margin-left: 50px;
+    height:76px;
+    position: relative;
+   }
+   .btncolor
+   {
+    color:black;
+    border-color: black;
+   }
+   .btncolor:hover
+   {
+    background-color: grey;
+    border-collapse: collapse;
+    
+   }
+   div.gallery {
+  margin: 95px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+
+  width: 100%;
+  height: 300px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+  </style>
+</head>
+<body>
+  <h1>The Book Store</h1>
+<nav class="navbar navbar-expand-lg navbar-light bg-light navdir bg-transparent">
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav pattern">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="reg.html">Register</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<nav class="navbar navbar-light bg-light searchdir bg-transparent">
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0 btncolor" type="submit">Search</button>
+  </form>
+</nav>
+<div>
+<div class="gallery">
+<img src="novel.jfif" alt="novel">
+</div>
+<div class="gallery">
+<img src="thriller.jfif" alt="thriller">
+</div>
+<div class="gallery">
+<img src="reference.jfif" alt="reference">
+</div>
+<div class="gallery">
+<img src="story.jfif" alt="story">
+</div>
+</body>
+</html>
